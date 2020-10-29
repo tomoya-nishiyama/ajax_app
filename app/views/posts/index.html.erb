@@ -1,0 +1,7 @@
+<h1>top page</h1>
+<% @posts.each do |post|%>
+  <div>
+    <%= post.memo %>
+    <%= post.created_at %>
+  </div>
+<% end %>
